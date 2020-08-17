@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const TOKEN_SECRET = process.env.TOKEN_SECRET || Math.random().toString();
 
 function generateToken(username) {
-  return jwt.sign(username, process.env.TOKEN_SECRET);
+  return jwt.sign(username, TOKEN_SECRET);
 }
 
 function authenticateToken(req, res, next) {
