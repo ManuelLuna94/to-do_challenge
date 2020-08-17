@@ -2,6 +2,7 @@
 
 ## Pre-requisites
 * Node.js
+* Nodemon (\`npm install nodemon -D\` inside the folder)
 * MongoDB (optional)
 
 ## There are two ways of running the app
