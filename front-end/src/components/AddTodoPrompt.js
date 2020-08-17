@@ -18,7 +18,7 @@ function AddTodoPrompt(props) {
   const { closeHandler, open, title } = props;
 
   const [selectedDate, setSelectedDate] = React.useState(
-    new Date("2020-08-15")
+    new Date(Date.now())
   );
 
   const submitHandler = async (event) => {

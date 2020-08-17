@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 
-const TOKEN_SECRET = process.env.TOKEN_SECRET || Math.random().toString();
+const TOKEN_SECRET = process.env.TOKEN_SECRET || "A pretty random string";
 
 function generateToken(username) {
   return jwt.sign(username, TOKEN_SECRET);
