@@ -1,0 +1,60 @@
+.container {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width: 300px;
+  background-color: #141715;
+  color: white;
+  font-family: Roboto;
+  padding: 10px;
+  border-radius: 10px;
+  animation: slide-enter 1s forwards;
+}
+
+.title {
+  color: #fcf003;
+  margin: 5px 0;
+  font-size: 1.8rem;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  font-size: 1.2rem;
+}
+
+.deactive {
+  animation: slide-leave 1s forwards;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+@keyframes slide-enter {
+  0% {
+    margin-left: -150px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-leave {
+  0% {
+    margin-left: 0;
+    opacity: 1;
+  }
+  100% {
+    margin-left: -150px;
+    opacity: 0;
+  }
+}

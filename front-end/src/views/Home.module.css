@@ -1,0 +1,17 @@
+.container {
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 10%;
+  background-color: #141715;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+}
+
+.greeting {
+  text-align: center;
+  color: white;
+}
