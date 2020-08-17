@@ -1,7 +1,7 @@
 # To run the app
 ## Pre-requisites
 - Node.js
-### Just run
+### Instructions
 - Navigate to \`front-end\`
 - $ npm install
 1. To open the app
