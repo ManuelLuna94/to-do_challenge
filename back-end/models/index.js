@@ -6,7 +6,7 @@ const Task = require("./Task");
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || "mongodb+srv://new_user31:new_user31@cluster0.u3yaj.mongodb.net/to-do_app?retryWrites=true&w=majority"
 
 const connectToDB = () => {
-  return mongoose.connect(, {
+  return mongoose.connect(CONNECTION_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
