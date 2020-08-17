@@ -13,7 +13,7 @@
 - $ npm install
 - $ npm start
 
-- ### Without a local MongoDB instance
+- ### Without a local MongoDB instance (there is an instance hosted online and the app tries to connect to it by default)
 1. Just run:
 - $ npm install
 - $ npm start
